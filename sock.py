@@ -10,6 +10,7 @@ DBPORT = 60000
 MYHOST = '192.168.1.202'
 MYPORT = 8007
 
+# work as an agent beteen db2 client and db2 server.
 
 s_lsn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s_lsn.bind((MYHOST, MYPORT)) 

@@ -78,6 +78,9 @@ class MyServerFactory(Factory):
     def buildProtocol(self, addr):
         return self.server 
 
+# work as an agent between a db2 client and  db2 server
+# using twisted.
+
 
 client=MyClient();
 server=MyServer();

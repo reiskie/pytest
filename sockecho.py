@@ -7,6 +7,7 @@ import time
 MYHOST = '192.168.3.202'
 MYPORT = 8008
 
+# send back what's received.
 
 s_lsn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s_lsn.bind((MYHOST, MYPORT)) 
